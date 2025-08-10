@@ -20,6 +20,7 @@ export default defineConfig({
   base: './',
   logLevel: 'warning',
   build: {
+    outDir: 'dist',
     rollupOptions: {
       output: {
         manualChunks: {
