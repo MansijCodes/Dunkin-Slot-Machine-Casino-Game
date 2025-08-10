@@ -16,7 +16,7 @@
       "dest": "backend/dist/main.js"
     },
     {
-      "src": "/(.*)",
+      "src": "(.*)",
       "dest": "frontend/dist/$1"
     }
   ]
